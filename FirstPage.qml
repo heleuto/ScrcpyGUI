@@ -46,6 +46,7 @@ Item {
                     text: qsTr("Android Devices")
                     font.pixelSize: 20
                     color: "white"
+
                 }
 
                 MouseArea{
