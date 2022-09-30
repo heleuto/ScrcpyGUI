@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/">
+        <file>js/messageDialogCreation.js</file>
+    </qresource>
+</RCC>

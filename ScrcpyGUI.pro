@@ -8,6 +8,7 @@ SOURCES += \
         main.cpp
 
 RESOURCES += qml.qrc \
+    js.qrc \
     rc.qrc
 
 TRANSLATIONS += \

@@ -13,12 +13,13 @@ Button{
     property string normalType: "LightSkyBlue"
     property string hightlightType: "DeepSkyBlue"
     property string disGray: "gray"
-
+    property alias radius: rect.radius
 
     function setDisabled(){
         rect.color = disGray
         root.state = "gray_color"
         enabled = false
+
     }
 
     contentItem: Label {

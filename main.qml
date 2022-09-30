@@ -8,9 +8,10 @@ import QtQuick.Controls 2.5
 Window {
     id: window
     width: 800
-    height: 600
+    height: 900
     visible: true
     title: qsTr("ScrcpyGUI")
+
 
     //界面数组
     property var stackPages: new Array
@@ -51,7 +52,7 @@ Window {
         //console.log(VirtualKeyboardSettings.availableLocales) //Windows平台打印内容为空
         VirtualKeyboardSettings.activeLocales = locallang
         VirtualKeyboardSettings.locale = locallang[0]
-        //VirtualKeyboardSettings.wordCandidateList.autoHideDelay = -1
+//        VirtualKeyboardSettings.wordCandidateList.autoHideDelay = 5000
     }
 
     function initStackPages(){
